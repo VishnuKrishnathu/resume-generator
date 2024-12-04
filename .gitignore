@@ -1,3 +1,5 @@
 .envrc
 .vscode
 .env
+resume_pdfs
+gen_resumes/*.tex

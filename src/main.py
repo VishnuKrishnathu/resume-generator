@@ -62,24 +62,22 @@ I have created AI agents using crew ai with OpenAI APIs and RAG approach which w
     research_task = tasks.resume_enhance_task(
         resume_enhance_agent,
         job_description=dedent("""\
-iamneo is seeking a passionate and talented Full Stack Developer to join our mission of building cutting-edge Generative AI web applications. You'll play a pivotal role in crafting the entire application experience, from the user interface to the powerful engine behind it. This is an opportunity to push boundaries, collaborate with a dynamic team, and leave your mark on the future of ed-tech.
-Responsibilities:
-Lead the execution and delivery of large, complex projects from beginning to end, independently or collaboratively.
-Ensure the timely delivery of all project deliverables.
-Act as a key participant in technical discussions within the team, serving as the go-to person for guidance and issue resolution.
-Understand and leverage key business and engineering metrics related to performance, quality, and availability, working with the team to continuously enhance them.
-Proactively engage in code reviews, architecture discussions, and the establishment of coding standards and best practices.
-Mentored junior engineers, providing guidance on coding, code reviews, and overall professional development.
-Requirements:
-3 to 6 years of extensive experience in end-to-end software product development.
-Strong problem-solving skills and tech savvy.
-Proficient in Requirement/Design/Code Review and Inspection practices.
-Excellent written and oral communication skills.
-Solid understanding of enterprise-scale technologies and the development of large-scale services.
-Ability to evaluate architectural options and make appropriate recommendations for implementation.
-Passion for constantly exploring the latest technologies relevant to our products and platforms.
-Ability to engage with potential leads and customers to conduct demonstrations and troubleshoot any technical challenges in the product.
-Hands-on experience with Chat GPT, LLAMA, and other AI, understanding of GPU memory management., building custom ETL scripts, using Logstash, Elastic Search
+            What youll get to do
+Develop robust, scalable, and secure full-stack applications using modern frameworks and technologies.
+Collaborate with product managers, designers, and other engineers to create customer-focused solutions.
+Build and maintain front-end components, APIs, and backend services that power GoDaddy s platform.
+Write clean, maintainable, and testable code while following best practices in software development.
+Optimize applications for performance, usability, and scalability.
+Debug and resolve technical issues to ensure smooth operation of GoDaddy s products.
+Contribute to architectural decisions and help shape the technical direction of our platforms.
+Your experience should include...
+Proven experience developing full-stack applications and working with both frontend and backend technologies.
+Experience with JavaScript, React, Angular, HTML, CSS, Node.js, Java, Python, Ruby on Rails
+Experience with Node.js, Python, Java.
+Knowledge of building RESTful APIs.
+Cloud Expertise: Experience deploying applications to cloud platforms like AWS.
+Knowledge/Experience with CI/CD pipelines and DevOps practices.
+Weve got your back... We offer a range of total rewards that may include paid time off, retirement savings (e.g., 401k, pension schemes), bonus/incentive eligibility, equity grants, participation in our employee stock purchase plan, competitive health benefits, and other family-friendly benefits including parental leave. GoDaddy s benefits vary based on individual role and location and can be reviewed in more detail during the interview process.
                                 """),
         professional_experience=professional_experience,
         user_skills=user_skills)
